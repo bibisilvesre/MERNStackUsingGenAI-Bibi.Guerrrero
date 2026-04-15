@@ -1,0 +1,40 @@
+/* Title */
+.form-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Container for the leave list */
+.leave-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+/* Leave item */
+.leave-item {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Labels for radio buttons */
+.leave-actions {
+  margin-top: 8px;
+}
+
+.leave-actions label {
+  margin-right: 15px;
+  cursor: pointer;
+  font-weight: 500;
+  color: #007bff;
+}
+
+.leave-actions input[type="radio"] {
+  margin-right: 5px;
+  cursor: pointer;
+}

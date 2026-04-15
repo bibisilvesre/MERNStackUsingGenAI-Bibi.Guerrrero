@@ -1,0 +1,28 @@
+/* Title */
+.form-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Profile container */
+.profile-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile rows */
+.profile-row {
+  margin-bottom: 12px;
+  font-size: 15px;
+}
+
+/* Label */
+.profile-label {
+  font-weight: bold;
+  color: #555;
+}

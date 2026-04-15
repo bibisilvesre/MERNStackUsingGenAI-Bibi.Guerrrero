@@ -1,0 +1,72 @@
+/* Same background as login */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  min-height: 100vh;
+}
+
+/* Main card */
+.signup-container {
+  width: 350px;
+  margin: 80px auto;
+  padding: 25px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Title */
+.signup-container h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Labels */
+.signup-container label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+/* Inputs */
+.signup-container input[type="email"],
+.signup-container input[type="password"],
+.signup-container input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Button */
+.signup-container input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(to right, #007bff, #00c6ff);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.signup-container input[type="submit"]:hover {
+  opacity: 0.9;
+}
+
+/* Link */
+.signup-container a {
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.signup-container a:hover {
+  text-decoration: underline;
+}

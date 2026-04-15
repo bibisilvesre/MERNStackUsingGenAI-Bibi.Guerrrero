@@ -1,0 +1,121 @@
+{
+  "logins": [
+    {
+      "emailId": "hr@gmail.com",
+      "password": "hr@123",
+      "typeOfUser": "hr",
+      "id": "fd29"
+    },
+    {
+      "id": "f81a",
+      "emailId": "Sean@gmail.com",
+      "password": "Sean@123",
+      "typeOfUser": "employee"
+    },
+    {
+      "id": "96cf",
+      "emailId": "Henry@gmail.com",
+      "password": "henry@123",
+      "typeOfUser": "employee"
+    },
+    {
+      "id": "429a",
+      "emailId": "emma@gmail.com",
+      "password": "emma@123",
+      "typeOfUser": "employee"
+    },
+    {
+      "id": "3ed4",
+      "emailId": "bibiana@gmail.com",
+      "password": "bibiana@123",
+      "typeOfUser": "employee"
+    },
+    {
+      "id": "ef05",
+      "emailId": "Michael@gmail.com",
+      "password": "michael@123",
+      "typeOfUser": "employee"
+    }
+  ],
+  "employees": [
+    {
+      "id": "91c9",
+      "emailId": "Sean@gmail.com",
+      "department": "IT",
+      "password": "Sean@123",
+      "age": "37"
+    },
+    {
+      "id": "c174",
+      "emailId": "Henry@gmail.com",
+      "department": "Non-IT",
+      "password": "henry@123",
+      "age": "27"
+    },
+    {
+      "id": "46b5",
+      "emailId": "Michael@gmail.com",
+      "department": "Finance",
+      "password": "michael@123",
+      "age": "21"
+    },
+    {
+      "id": "382e",
+      "emailId": "emma@gmail.com",
+      "department": "Accounting",
+      "password": "emma@123",
+      "age": "30"
+    },
+    {
+      "id": "6fdb",
+      "emailId": "bibiana@gmail.com",
+      "department": "Finance",
+      "password": "bibiana@123",
+      "age": "50"
+    }
+  ],
+  "leaveInformation": [
+    {
+      "id": "f5c1",
+      "emailId": "Sean@gmail.com",
+      "reason": "Not feeling well",
+      "numberOfDays": "2",
+      "status": "Approved"
+    },
+    {
+      "id": "527b",
+      "emailId": "Henry@gmail.com",
+      "reason": "going to vacation",
+      "numberOfDays": "5",
+      "status": "Denied"
+    },
+    {
+      "id": "6703",
+      "emailId": "Sean@gmail.com",
+      "reason": "Party",
+      "numberOfDays": "1",
+      "status": "Denied"
+    },
+    {
+      "id": "8914",
+      "emailId": "emma@gmail.com",
+      "reason": "Sick Leave",
+      "numberOfDays": "3",
+      "status": "Approved"
+    },
+    {
+      "id": "5687",
+      "emailId": "Sean@gmail.com",
+      "reason": "Doctors Appointment",
+      "numberOfDays": "1",
+      "status": "Denied"
+    },
+    {
+      "id": "eeb6",
+      "emailId": "Sean@gmail.com",
+      "reason": "Family Emergency",
+      "numberOfDays": "1",
+      "status": "Approved"
+    }
+  ]
+}

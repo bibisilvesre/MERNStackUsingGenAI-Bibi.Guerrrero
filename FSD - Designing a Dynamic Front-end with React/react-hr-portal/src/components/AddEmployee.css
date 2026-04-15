@@ -1,0 +1,46 @@
+/* Section title */
+.form-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form layout */
+.form-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Labels */
+.form-container label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+/* Inputs */
+.form-container input[type="email"],
+.form-container input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Button (same gradient style) */
+.form-container input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(to right, #007bff, #00c6ff);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.form-container input[type="submit"]:hover {
+  opacity: 0.9;
+}
