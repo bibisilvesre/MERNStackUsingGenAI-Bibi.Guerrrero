@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f4f6f8;
+  font-family: Arial;
+}
+
+/* Navbar */
+nav {
+  background: #222;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #f9c74f;
+}
+
+/* Layout */
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px;
+  background: #0077ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #005fcc;
+}
+
+.cancel-btn {
+  background: red;
+}
+
+.cancel-btn:hover {
+  background: darkred;
+}
+
+/* List */
+ul {
+  list-style: none;
+}
+
+li {
+  background: white;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Error */
+p {
+  color: red;
+  font-size: 14px;
+}

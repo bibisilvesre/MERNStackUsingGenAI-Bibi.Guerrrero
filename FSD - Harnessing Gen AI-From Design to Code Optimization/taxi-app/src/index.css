@@ -1,0 +1,68 @@
+/* =========================
+   GLOBAL RESET
+========================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* =========================
+   ROOT SETTINGS
+========================= */
+html, body {
+  height: 100%;
+}
+
+/* =========================
+   BODY STYLING
+========================= */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #eef2f3, #dfe9f3);
+  color: #1f2937;
+  line-height: 1.6;
+}
+
+/* =========================
+   LINKS
+========================= */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* =========================
+   BUTTON RESET
+========================= */
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* =========================
+   INPUT FOCUS CLEAN STYLE
+========================= */
+input:focus {
+  outline: none;
+}
+
+/* =========================
+   SCROLLBAR (optional nice UI)
+========================= */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

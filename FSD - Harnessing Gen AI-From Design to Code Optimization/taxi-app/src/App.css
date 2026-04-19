@@ -1,0 +1,159 @@
+/* ===== Global Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== Body ===== */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #eef2f3, #dfe9f3);
+  color: #333;
+}
+
+/* ===== Navbar ===== */
+nav {
+  background: #1f2937;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+nav a {
+  color: #f9fafb;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #facc15;
+}
+
+/* ===== Layout ===== */
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 40px auto;
+}
+
+/* ===== Card UI ===== */
+.card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* ===== Headings ===== */
+h1 {
+  margin-bottom: 15px;
+  color: #1f2937;
+}
+
+/* ===== Forms ===== */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  transition: 0.2s;
+}
+
+input:focus {
+  border-color: #3b82f6;
+  outline: none;
+}
+
+/* ===== Buttons ===== */
+button {
+  margin-top: 15px;
+  padding: 12px;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #2563eb;
+}
+
+/* Cancel Button */
+.cancel-btn {
+  background: #ef4444;
+}
+
+.cancel-btn:hover {
+  background: #dc2626;
+}
+
+/* ===== Ride List ===== */
+ul {
+  list-style: none;
+  margin-top: 15px;
+}
+
+li {
+  background: #f9fafb;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.2s;
+}
+
+li:hover {
+  background: #f1f5f9;
+}
+
+/* ===== Error Text ===== */
+p {
+  color: blue;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+/* ===== Animation ===== */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 600px) {
+  nav {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .container {
+    width: 95%;
+  }
+
+  li {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+}
